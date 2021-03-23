@@ -7,15 +7,15 @@
 클래스 다이어그램은 클래스, 프로토콜, 프로퍼티, 메서드 및 클래스 다이어그램 간 관계 내용이 포함된다.
 > 한눈에 그림으로 내용을 파악 할 수있어 디자인 패턴 학습에 도움이 매우매우 될 것 같다. :thumbsup:
 
-* mermaid 라이브러리를 이용한 클래스 다이어그램 작성
+* mermaid를 이용한 클래스 다이어그램 작성
 
 ```mermaid
 classDiagram
     개 <|-- "is-a" 양몰이개 : 상속 관계
     농부 "1" --> "has-a / 1..*" 개 : 관계
-    PetOwning <|.. "conforms to" 농부 : 구현 
-    class PetOwning
-    <<protocol>> PetOwning
+    애완동물키우기 <|.. "conforms to" 농부 : 구현 
+    class 애완동물키우기
+    <<protocol>> 애완동물키우기
 
     class 개 {
         -String 개
@@ -35,14 +35,5 @@ classDiagram
 개와 양몰이개는 상속 관계로 양몰이개는 개이고, 개는 양몰이개가 아니다
 농부는 양몰이개를 한마리 이상 가지고 있다.
 
-* 클래스 다이어그램 관계 설명(mermaid)
+** 클래스 다이어그램 관계(mermaid)
 ![관계](/1.Hello,%20Design%20Patterns!/diagram.png)
-
-  * Inheritance: 상속
-  * Composition:
-  * Aggregation:
-  * Association:
-  * Link(Solid):
-  * Dependency:
-  * Realization:
-  * Link(Dashed)
