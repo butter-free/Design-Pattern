@@ -9,7 +9,7 @@ MVC 패턴은 Model - View - Controller로 구분된다.
 
 ![MVC](/2.Fundamental%20Design%20Patterns/mvc.png)
 
-* **Model**: 저장된 데이터 및 연관된 로직이며, 보통 구조체나 간단한 클래스로 구성 한다.
+* **Model**: 저장된 데이터 및 비즈니스 로직의 집합이며, 보통 구조체나 간단한 클래스로 구성 한다.
 * **View**: 눈에 보여지는 화면의 구성 요소를 말한다.
 * **Controller**: Model과 View의 상태에 따라서 각각을 제어하는 역할을 한다.
 
@@ -19,7 +19,7 @@ MVC의 특징으로는 컨트롤러는 모델과 뷰를 가지고 있기 때문�
 
 모델은 프로퍼티 옵저빙을 통해, 뷰는 IBAction을 통해 컨트롤러와 커뮤니케이션 한다.
 
-> [순환 참조?? 참조가 뭐지?](/2.Fundamental%20Design%20Patterns/RetainCycle.md)
+> [순환 참조? 참조?](/2.Fundamental%20Design%20Patterns/RetainCycle.md)
 
 ## MVC 패턴 예제 코드
 
@@ -92,6 +92,7 @@ public final class AddressViewController: UIViewController {
 
 ## MVC 패턴 사용시 주의할 점
 
-예제 코드를 보면 모델, 뷰의 내용과 로직 등이 컨트롤러 안에 같이 존재하여 컨트롤러의 코드가 방대해지기 쉽다.
+예제 코드를 보면 모델, 뷰의 내용과 비즈니스 로직 등이 컨트롤러 안에 같이 존재하여 컨트롤러의 코드가 방대해지기 쉽다.
 
-> MVC 패턴이 Massive View Controller라고 불리게 된 이유이다.
+> MVC 패턴이 Massive View Controller라고 불리게 된 이유이다. 이러한 문제점을 방지하기 위해서는 어떤 방법이 있을까?
+> MVC의 장점은 무엇일까?
