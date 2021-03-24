@@ -21,7 +21,7 @@ MVC의 특징으로는 컨트롤러는 모델과 뷰를 가지고 있기 때문�
 
 > [순환 참조?? 참조가 뭐지?](/2.Fundamental%20Design%20Patterns/RetainCycle.md)
 
-## 코드 예제
+## MVC 패턴 예제 코드
 
 ```swift
 import UIKit
@@ -90,8 +90,8 @@ public final class AddressViewController: UIViewController {
 }
 ```
 
-## MVC 패턴 사용시 주의할 점!
+## MVC 패턴 사용시 주의할 점
 
-위의 예제 코드를 보면 모델, 뷰의 내용과 로직 등이 컨트롤러 안에 같이 존재하여 컨트롤러의 코드가 방대해지기 쉽다.
+예제 코드를 보면 모델, 뷰의 내용과 로직 등이 컨트롤러 안에 같이 존재하여 컨트롤러의 코드가 방대해지기 쉽다.
 
-> 애플식의 MVC 패턴이 Massive View Controller라고 불리게 된 이유이다.
+> MVC 패턴이 Massive View Controller라고 불리게 된 이유이다.
