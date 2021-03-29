@@ -130,7 +130,7 @@ public final class AddressView: UIView {
             return nil
         }
 
-        return Address(street: street, city: city, state: state, zipCode: 
+        return Address(street: street, city: city, state: state, zipCode: zipCode)
     }
 }
 
