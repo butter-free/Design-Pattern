@@ -154,23 +154,24 @@ public final class AddressViewController: UIViewController {
     // MARK: - View Lifecycle
     public override func viewDidLoad() {
         super.viewDidLoad()
-        address = Address(street: "", city: "", state: "", zipCode: "") // 초깃값 설정.
+        self.address = Address(street: "", city: "", state: "", zipCode: "") // 초깃값 설정.
     }
 
     // MARK: - Actions
     // 1. 주소를 입력받는 뷰에 주소를 입력하고 업데이트 버튼을 클릭!.
     @IBAction public func updateAddressFromView(_ sender: AnyObject) {
         guard let address = addressView.getAddress() else { return }
-        address = address
+        self.address = address
     }
 }
 ```
 
 > 뷰 컨트롤러에 있던 코드를 뷰 내부로 이동시켜 코드를 줄여 보았다.
+> 짧고 단순한 뷰와 로직의 코드라서 쉽게 코드를 줄일 수 있었지만 복잡한 상태라면 쉽지 않을 것이다.
 
 ## MVC 패턴 사용시 주의할 점!
 
-예제 코드를 보면 모델, 뷰의 내용과 비즈니스 로직 등이 컨트롤러 안에 같이 존재하여 컨트롤러의 코드가 방대해지기 쉽다.
+예제 코드와 같이 모델, 뷰의 내용과 비즈니스 로직 등이 컨트롤러 안에 같이 존재하여 컨트롤러의 코드가 방대해지기 쉽다.
 
 > MVC 패턴이 Massive View Controller라고 불리게 된 이유이다. 이러한 문제점을 방지하기 위해서는 어떤 방법이 있을까?
 > MVC의 장점은 무엇일까?
