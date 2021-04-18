@@ -4,7 +4,7 @@
 
 Delegation 패턴은 자기 자신이 작업을 수행하지 않고, 대리자가 작업을 대신 수행할 수 있도록 해준다.
 
-![delegate](/2.Fundamental%20Design%20Patterns/delegate.png)
+![delegate](/2.Fundamental%20Design%20Patterns/Delegation/delegate.png)
 
 * Delegation 패턴의 세가지 특징
   * delegate는 대게 순환 참조를 피하기 위해서 약한 참조의 프로퍼티로 가지고 있다.

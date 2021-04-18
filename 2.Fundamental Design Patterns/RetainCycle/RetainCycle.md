@@ -9,7 +9,7 @@
 >> 스택 영역에 존재하는 변수는 힙 영역의 주소값을 가지고 있다.
 
 * Understanding Swift Performance(wwdc2016)
-![Allocation](/2.Fundamental%20Design%20Patterns/Allocation.png)
+![Allocation](/2.Fundamental%20Design%20Patterns/RetainCycle/Allocation.png)
 
 그래서 순환 참조가 뭐지? 알아보기 위해서 메모리 관리 기법에 대해 알아보자.
 
@@ -18,7 +18,7 @@
 > iOS에서는 Retain count로 메모리 관리를 한다. 참조 갯수로 참조가 늘어나면 1씩 증가하며 0이 되면 해제 된다.
 
 * 메모리 관리 과정
-![MRR](/2.Fundamental%20Design%20Patterns/MRR.png)
+![MRR](/2.Fundamental%20Design%20Patterns/RetainCycle/MRR.png)
 
 ## MRR(Menual Retain Release)
 
@@ -28,7 +28,7 @@
 
 > MRR과 방식은 동일 하지만 컴파일 단계에서 메모리 할당 해제 코드가 추가 된다. 개발자가 메모리 관리에 대해서 신경쓰지 않아도 되지만 해제되지 않는 경우가 있어 유의 해야 한다.
 
-![ARC](/2.Fundamental%20Design%20Patterns/ARC_Illustration.jpg)
+![ARC](/2.Fundamental%20Design%20Patterns/RetainCycle/ARC_Illustration.jpg)
 
 메모리 처리에 대해서 일일이 코드 처리를 해주지 않아도 되기때문에 편리하면서 코드량도 감소 하지만 사용되지 않는 객체에 대해서 메모리 해제가 되지않는 메모리 누수가 발생할 수 있기 때문에 유의 해야 한다.
 
@@ -66,7 +66,7 @@ john = Person(name: "John Appleseed")
 unit4A = Apartment(unit: "4A")
 ```
 
-![referenceCycle1](/2.Fundamental%20Design%20Patterns/referenceCycle1.png)
+![referenceCycle1](/2.Fundamental%20Design%20Patterns/RetainCycle/referenceCycle1.png)
 
 * 순환 참조
 
@@ -75,7 +75,7 @@ john!.apartment = unit4A
 unit4A!.tenant = johnd
 ```
 
-![referenceCycle1](/2.Fundamental%20Design%20Patterns/referenceCycle2.png)
+![referenceCycle1](/2.Fundamental%20Design%20Patterns/RetainCycle/referenceCycle2.png)
 
 * 메모리 누수 발생
 
@@ -84,9 +84,13 @@ john = nil
 unit4A = nil
 ```
 
-![referenceCycle1](/2.Fundamental%20Design%20Patterns/referenceCycle3.png)
+![referenceCycle1](/2.Fundamental%20Design%20Patterns/RetainCycle/referenceCycle3.png)
 
 메모리 누수가 발생되면 해당 메모리를 해제 할 방법이 없다. 메모리 누수가 많이 발생한다면 메모리 사용량이 계속 증가하여 결국 앱이 강제 종료 될수도 있다!
+
+## 순환 참조 해결방안
+
+> weak, unowned, 약한 참조, 강한 참조
 
 ## 참고
 
