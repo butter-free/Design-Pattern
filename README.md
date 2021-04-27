@@ -12,4 +12,5 @@
 | Fundamental Design Patterns |             [MVC](/2.Fundamental%20Design%20Patterns/MVC/MVCPattern.md)              | [순환 참조](/2.Fundamental%20Design%20Patterns/RetainCycle/RetainCycle.md) | 2021.04.03 |
 |                             |   [Delegation](/2.Fundamental%20Design%20Patterns/Delegation/DelegationPattern.md)   |                                                                            | 2021.04.07 |
 |                             |      [Strategy](/2.Fundamental%20Design%20Patterns/Strategy/StrategyPattern.md)      |                                                                            | 2021.04.19 |
+|                             |    [Singleton](/2.Fundamental%20Design%20Patterns/Singleton/SingletonPattern.md)     |                                                                            | 2021.04.26 |
 |  Advanced Design Patterns   |   [Coordinator](/4.Advanced%20Design%20Patterns/Coordinator/CoordinatorPattern.md)   |                                                                            | 2021.04.11 |
