@@ -13,4 +13,5 @@
 |                             |   [Delegation](/2.Fundamental%20Design%20Patterns/Delegation/DelegationPattern.md)   |                                                                            | 2021.04.07 |
 |                             |      [Strategy](/2.Fundamental%20Design%20Patterns/Strategy/StrategyPattern.md)      |                                                                            | 2021.04.19 |
 |                             |    [Singleton](/2.Fundamental%20Design%20Patterns/Singleton/SingletonPattern.md)     |                                                                            | 2021.04.26 |
+|                             |       [Memento](/2.Fundamental%20Design%20Patterns/Memento/MementoPattern.md)        |                                                                            | 2021.04.27 |
 |  Advanced Design Patterns   |   [Coordinator](/4.Advanced%20Design%20Patterns/Coordinator/CoordinatorPattern.md)   |                                                                            | 2021.04.11 |
