@@ -15,4 +15,5 @@
 |                             |    [Singleton](/2.Fundamental%20Design%20Patterns/Singleton/SingletonPattern.md)     |                                                                            | 2021.04.26 |
 |                             |       [Memento](/2.Fundamental%20Design%20Patterns/Memento/MementoPattern.md)        |                                                                            | 2021.04.27 |
 |                             |      [Observer](/2.Fundamental%20Design%20Patterns/Observer/ObsrverPattern.md)       |                                                                            | 2021.05.04 |
+|                             |       [Builder](/2.Fundamental%20Design%20Patterns/Builder/BuilderPattern.md)        |                                                                            | 2021.05.08 |
 |  Advanced Design Patterns   |   [Coordinator](/4.Advanced%20Design%20Patterns/Coordinator/CoordinatorPattern.md)   |                                                                            | 2021.04.11 |
