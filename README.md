@@ -16,5 +16,5 @@
 |                              |       [Memento](/2.Fundamental%20Design%20Patterns/Memento/MementoPattern.md)        |                                                                            | 2021.04.27 |
 |                              |      [Observer](/2.Fundamental%20Design%20Patterns/Observer/ObsrverPattern.md)       |                                                                            | 2021.05.04 |
 |                              |       [Builder](/2.Fundamental%20Design%20Patterns/Builder/BuilderPattern.md)        |   [OptionSet](https://developer.apple.com/documentation/swift/optionset)   | 2021.05.08 |
-| Intermediate Design Patterns |              [MVVM](/3.Intermediate%20Design%20Patterns/MVVMPattern.md)              |                                                                            | 2021.05.10 |
+| Intermediate Design Patterns |              [MVVM](/3.Intermediate%20Design%20Patterns/MVVMPattern.md)              |                                                                            | 2021.06.26 |
 |   Advanced Design Patterns   |   [Coordinator](/4.Advanced%20Design%20Patterns/Coordinator/CoordinatorPattern.md)   |                                                                            | 2021.04.11 |
