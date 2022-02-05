@@ -175,3 +175,6 @@ public final class AddressViewController: UIViewController {
 
 > MVC 패턴이 Massive View Controller라고 불리게 된 이유이다. 이러한 문제점을 방지하기 위해서는 어떤 방법이 있을까?
 > MVC의 장점은 무엇일까?
+
+***
+##### Artwork/images/designs: from Design Patterns by Tutorials, available at www.raywenderlich.com

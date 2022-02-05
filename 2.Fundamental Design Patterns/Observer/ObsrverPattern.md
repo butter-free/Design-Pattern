@@ -65,3 +65,5 @@ Observer 패턴을 구현하기 전에 변경점에 대한 내용 및 조건에 
 
 * Observer 패턴을 통해 하나의 개체가 다른 개체의 변경점을 관찰할 수 있으며 `Subscriber(구독자)`, `Publisher(발행자)`, `Value(변경 대상)` 의 세가지 유형을 포함한다.
 
+***
+##### Artwork/images/designs: from Design Patterns by Tutorials, available at www.raywenderlich.com

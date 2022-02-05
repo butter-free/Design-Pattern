@@ -134,3 +134,6 @@ public class MovieRatingViewController: UIViewController {
 * Strategy 패턴은 전략을 사용하는 개체, 전략 프로토콜, 전략의 모임의 세부분으로 구성 된다.
 
 * Strategy 패턴은 Delegation 패턴과 유사하다. 두 패턴 모두 코드 유연성을 위해 프로토콜을 사용한다. Strategy 패턴은 Delegation 패턴과는 다르게 런타임 동안에 교체가 되고, Delegation 패턴은 대부분 고정된다.
+
+***
+##### Artwork/images/designs: from Design Patterns by Tutorials, available at www.raywenderlich.com

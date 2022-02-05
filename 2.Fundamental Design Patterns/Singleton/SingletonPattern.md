@@ -98,3 +98,6 @@ Singleton이 문제가 되는 가장 일반적인 이유는 테스트하기 어�
 * Singleton Plus 패턴은 "default" 공유 인스턴스 및 직접 인스턴스의 생성도 가능하다.
 
 * 패턴 남용을 유의해야 한다! singleton을 만들기 전에 다른 해결방법이 있는지 고려해보자 singleton을 꼭 적용해야 한다면 singleton plus 패턴도 염두해 두자.
+
+***
+##### Artwork/images/designs: from Design Patterns by Tutorials, available at www.raywenderlich.com

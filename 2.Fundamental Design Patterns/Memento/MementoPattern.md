@@ -123,3 +123,6 @@ print("Loaded Game Score: \(game.state.score)") // 9002
 * 발신자는 저장할 오브젝트, 저장 대상은 저장된 상태, 관리자는  연관 저장대상들의 유지 및 제어한다.
 
 * iOS는 저장대상을 인코딩 및 디코딩 하기위한 Encoder, Decoder를 제공한다. 이것은 인코딩 및 디코딩 로직을 여러 발신자에서 사용할수 있다.
+
+***
+##### Artwork/images/designs: from Design Patterns by Tutorials, available at www.raywenderlich.com

@@ -454,3 +454,6 @@ Coordinator 프로토콜에 navigation controller 프로퍼티와 start()라는 
 * Concrete View Controller는 서로에 대해서 어떤 View Controller인지 모른다.
 
 * Coordinator 패턴은 앱의 일부 혹은 전체에 걸쳐서 사용 될 수 있다.
+
+***
+##### Artwork/images/designs: from Design Patterns by Tutorials, available at www.raywenderlich.com

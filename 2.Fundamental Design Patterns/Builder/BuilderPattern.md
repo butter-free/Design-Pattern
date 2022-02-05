@@ -203,3 +203,6 @@ Builder 패턴은 일련의 단계를 거쳐 여러개의 입력을 요구하는
 * Director는 입력을 받아들이고 Builder로 전달한다. Product는 만들어진 복잡한 객체이다. Builder는 단계별 입력들로 객체를 만든다.
 
 > 그룹이나 모임을 만들어야 하는 서비스에서 유용하게 사용할 수 있을것 같다.
+
+***
+##### Artwork/images/designs: from Design Patterns by Tutorials, available at www.raywenderlich.com

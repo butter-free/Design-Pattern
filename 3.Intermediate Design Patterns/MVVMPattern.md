@@ -207,3 +207,6 @@ MVVM패턴은 앱에서 Model을 View에서 필요한 값으로 변환하는 경
 * ViewModel은 객체를 다른 객체로 변환하는 클래스이며, View Controller에 전달되어 View에 표시될 수 있다.
   
 * 하나의 View에 대해서 두개 이상의 ViewModel을 사용하는 경우 View를 구성하는 코드를 각자의 View로 구분하는게 더 간단할 수 있다.
+
+***
+##### Artwork/images/designs: from Design Patterns by Tutorials, available at www.raywenderlich.com

@@ -110,3 +110,6 @@ Delegate는 매우 유용하지만 남용하기 쉽고, 너무 많은 delegate�
 * 거대한 클래스 코드의 분리나 재사용 가능한 컴포넌트 생성에 사용 될 수 있다.
 
 * delegate는 대부분 약한 참조로 사용된다.
+
+***
+##### Artwork/images/designs: from Design Patterns by Tutorials, available at www.raywenderlich.com
