@@ -7,7 +7,7 @@
 
 |           Scetion            |                                     Chapter                                      |                                 Reference                                  |  Updated   |
 | :--------------------------: | :------------------------------------------------------------------------------: | :------------------------------------------------------------------------: | :--------: |
-|   Hello, Design Patterns!    |   [디자인 패턴 이란?](/1.Hello,%20Design%20Patterns!/WhatareDesignPatterns.md)   |                                                                            | 2021.03.19 |
+|   Hello, Design Patterns!    |   [디자인 패턴 이란?](/1.Hello,%20Design%20Patterns!/WhatareDesignPatterns.md)   |                                                                            | 2022.03.26 |
 | Fundamental Design Patterns  |           [MVC](/2.Fundamental%20Design%20Patterns/MVC/MVCPattern.md)            | [순환 참조](/2.Fundamental%20Design%20Patterns/RetainCycle/RetainCycle.md) | 2021.04.03 |
 |                              | [Delegation](/2.Fundamental%20Design%20Patterns/Delegation/DelegationPattern.md) |                                                                            | 2021.04.07 |
 |                              |    [Strategy](/2.Fundamental%20Design%20Patterns/Strategy/StrategyPattern.md)    |                                                                            | 2021.04.19 |
