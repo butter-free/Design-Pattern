@@ -8,8 +8,8 @@ MVC 패턴은 Model - View - Controller로 구분된다.
 
 ![MVC](/2.Fundamental%20Design%20Patterns/MVC/Resources/mvc.png)
 
-:heavy_check_mark:  **Model**: 저장된 **데이터 및 비즈니스 로직의 집합**이며, 보통 구조체나 간단한 클래스로 구성 한다.
-:heavy_check_mark:  **View**: 보여지는 **화면의 구성 요소**를 말한다.
+:heavy_check_mark:  **Model**: 저장된 **데이터 및 비즈니스 로직의 집합**이며, 보통 구조체나 간단한 클래스로 구성 한다.  
+:heavy_check_mark:  **View**: 보여지는 **화면의 구성 요소**를 말한다.  
 :heavy_check_mark:  **Controller**: Model과 View의 **상태**에 따라서 각각을 **제어하는 역할**을 한다.
 
 MVC의 특징으로는 **컨트롤러는 모델과 뷰를 소유하고 있기 때문에 직접적으로 접근 가능**하다. 또한 컨트롤러는 하나 이상의 모델과 화면을 가지고 있을 수 있다.
